@@ -1,8 +1,10 @@
 body{
-    background-color: white;
+    background-color: rgb(226, 220, 220);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0%;
     padding: 0;
+    border: 2px;
+    border-color: grey;
 }
 
 header{
@@ -13,6 +15,10 @@ header{
     background-image: url(faixa.jpg) ;
     background-color: yellow;
     padding: 10px;
+}
+
+.margi{
+    margin: 5px;
 }
 
 .head{
@@ -26,3 +32,19 @@ header{
 .flex{
     display: flex;
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+
+  thead,
+ 
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
